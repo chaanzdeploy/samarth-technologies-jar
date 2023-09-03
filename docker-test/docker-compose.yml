@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  grahak-service:
+    container_name: grahak
+    build: .
+    image: grahak:build21
+    ports:
+      - 8080:8080
